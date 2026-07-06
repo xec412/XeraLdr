@@ -1,5 +1,9 @@
 # XeraLdr
 
+<p align="center">
+  <img src="docs/screenshots/banner.png" width="800" alt="XeraLdr Banner">
+</p>
+
 A stealthy and modular Windows loader developed by **xec412**.
 
 ## ⚠️ Disclaimer
@@ -73,31 +77,3 @@ XeraLdr is a custom loader designed to execute payloads with high stealth agains
 1. Clone the repository:
    ```bash
    git clone https://github.com/xec412/XeraLdr.git
-   ```
-2. Open the solution file `XeraLdr.slnx` with Visual Studio.
-
-3. Select **Release | x64** configuration.
-
-4. Go to **Build -> Rebuild Solution**.
-
-All necessary build settings are already configured in the project. No additional changes are required.
-```
-
-## Learning Resources
-
-- [Maldev Academy](https://maldevacademy.com/)
-
----
-
-## References
-
-- [Sandbox-Detection-Techniques](https://github.com/arxhr007/Sandbox-Detection-Techniques)
-- [LibTomCrypt](https://github.com/libtom/libtomcrypt)
-- [C5pider's Tweet on Sleep Obfuscation](https://x.com/C5pider/status/1743209459533435308)
-
----
-
-## Legal
-
-This project is licensed under the **GPL-3.0 License**.  
-See the [LICENSE](LICENSE) file for details.
