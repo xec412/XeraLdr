@@ -90,6 +90,10 @@ All necessary build settings are already configured in the project. No additiona
 
 ---
 
+If you find the engineering choices or the implementation useful, dropping a star on the repository would be highly appreciated! ⭐
+
+---
+
 ## Learning Resources
 
 - [Maldev Academy](https://maldevacademy.com)
