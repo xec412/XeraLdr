@@ -55,6 +55,7 @@ XeraLdr is a custom loader designed to execute payloads with high stealth agains
 
 ### 7. Zilean Sleep Obfuscation (with Stack Duplication & Heap Encryption)
 - **Why?** Classic `Sleep()` is easily detected. Using `SystemFunction040/041` (RtlEncryptMemory / RtlDecryptMemory) for heap encryption + stack duplication makes sleep periods much stealthier.
+- ** - **Warning:** If you are using a transient payload like `calc.exe`, the process will execute the payload and immediately invoke `ExitThread`. As a result, the sleep obfuscation mechanism will not trigger. For this technique to work as intended, ensure you are using a persistent payload (e.g., a reverse shell) that keeps the thread execution flow alive.
 - **Reference:** [C5pider's Tweet](https://x.com/C5pider/status/1743209459533435308)
 
 ---
