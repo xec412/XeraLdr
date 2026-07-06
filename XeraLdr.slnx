@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="XeraLdr.vcxproj" Id="6061cd7d-feaf-41bf-8c4f-e5e479872242" />
+</Solution>
