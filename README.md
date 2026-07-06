@@ -1,10 +1,10 @@
 # XeraLdr
 
+A stealthy and modular Windows loader developed by **xec412**.
+
 <p align="center">
   <img src="docs/screenshots/banner.png" width="800" alt="XeraLdr Banner">
 </p>
-
-A stealthy and modular Windows loader developed by **xec412**.
 
 ## ⚠️ Disclaimer
 
