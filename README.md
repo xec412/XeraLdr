@@ -50,8 +50,8 @@ XeraLdr is a custom loader designed to execute payloads with high stealth agains
 - **Strength:** Payload remains encrypted until runtime.
 - **Reference:** [LibTomCrypt](https://github.com/libtom/libtomcrypt)
 
-### 6. Resource Section Payload Delivery
-- **Why?** Keeps the payload inside the binary, reducing suspicious disk activity.
+### 6. CRT-Free Binary
+- **Why?** Removes dependency on the Visual C++ Runtime, resulting in a smaller binary with a minimal Import Address Table (IAT). This reduces static signatures commonly flagged by EDRs and AVs.
 
 ### 7. Zilean Sleep Obfuscation (with Stack Duplication & Heap Encryption)
 - **Why?** Classic `Sleep()` is easily detected. Using `SystemFunction040/041` (RtlEncryptMemory / RtlDecryptMemory) for heap encryption + stack duplication makes sleep periods much stealthier.
