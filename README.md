@@ -6,6 +6,8 @@ A stealthy and modular Windows loader developed by **xec412**.
   <img src="docs/screenshots/banner.png" width="800" alt="XeraLdr Banner">
 </p>
 
+<a href="https://trendshift.io/repositories/74899?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-74899" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/74899/daily?language=C" alt="xec412%2FXeraLdr | Trendshift" width="250" height="55"/></a>
+
 ## ⚠️ Disclaimer
 
 This project is for **educational and research purposes only**.  
