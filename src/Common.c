@@ -564,7 +564,5 @@ void* __cdecl memcpy(void* destination, const void* source, size_t size) {
 		*d++ = *s++;
 	}
 
-	// CRITICAL FIX: Orijinal memcpy her zaman destination pointer'ini doner.
-	// Donmezse bazi optimizasyonlarda kod bellek patlamasina (crash) sebep olur.
 	return destination;
 }
